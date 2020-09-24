@@ -405,12 +405,12 @@ a:hover.sottolineatura {
 
 #PrevVIOLA {
   margin-left: 1.5rem;
-  width: 100%;
+  width: 70%;
   cursor: pointer;
 }
 
 #NextVIOLA {
-  width: 60%;
+  width: 80%;
   margin-right: 1.5rem;
   float: right;
   cursor: pointer;
@@ -418,12 +418,12 @@ a:hover.sottolineatura {
 
 #PrevCYAN {
   margin-left: 1.5rem;
-  width: 63%;
+  width: 70%;
   cursor: pointer;
 }
 
 #NextCYAN {
-  width: 63%;
+  width: 80%;
   margin-right: 1.5rem;
   float: right;
   cursor: pointer;
@@ -444,7 +444,7 @@ a:hover.sottolineatura {
 
 #PrevYELLOW {
   margin-left: 1.5rem;
-  width: 100%;
+  width: 70%;
   cursor: pointer;
   margin-bottom: -14.5rem;
 }
