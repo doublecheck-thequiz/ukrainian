@@ -20,12 +20,11 @@
   --font-varhalf: bandeins_strangeBdExhalf;
 }
 
-
 .bodyl {
   background-color: var(--white);
   margin: 0px;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 #lottie {
@@ -105,45 +104,49 @@
 }
 
 @font-face {
-    font-family: 'NotoSansDisplay-Bold';
-    src: url('../css/fonts/NotoSansDisplay-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'NotoSansDisplay-Bold';
+  src: url('../css/fonts/NotoSansDisplay-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'NotoSansDisplay-Regular';
-    src: url('../css/fonts/NotoSansDisplay-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'NotoSansDisplay-Regular';
+  src: url('../css/fonts/NotoSansDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'NotoSansDisplay-SemiBold';
-    src: url('../css/fonts/NotoSansDisplay-SemiBold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'NotoSansDisplay-SemiBold';
+  src: url('../css/fonts/NotoSansDisplay-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'NotoSansDisplay-Light';
-    src: url('../css/fonts/NotoSansDisplay-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'NotoSansDisplay-Light';
+  src: url('../css/fonts/NotoSansDisplay-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'NotoSansDisplay-Medium';
-    src: url('../css/fonts/NotoSansDisplay-Medium.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'NotoSansDisplay-Medium';
+  src: url('../css/fonts/NotoSansDisplay-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {}
 
 html, body {
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+#home {
+  overflow: hidden !important;
 }
 
 footer .container-fluid {
@@ -191,7 +194,6 @@ footer .container-fluid {
   position: relative;
 }
 
-
 .body5 {
   min-height: 100%;
   height: 100vh;
@@ -233,7 +235,6 @@ footer .container-fluid {
 }
 
 /* home page */
-
 .logobar {
   height: 80px;
 }
@@ -609,7 +610,6 @@ a:hover.sottolineatura {
 }
 
 /* Transizione */
-
 .animate-in {
   -webkit-animation: fadeIn .5s ease-in;
   animation: fadeIn .5s ease-in;
@@ -642,7 +642,6 @@ a:hover.sottolineatura {
 }
 
 /* Risultati finali */
-
 .result {
   background-color: var(--white);
   border: 0.1rem solid black;
@@ -709,14 +708,12 @@ a:hover.sottolineatura {
   top: 35%;
   z-index: 999;
   padding: 1rem 4rem;
-  left:1%;
+  left: 1%;
   font-size: 1.5rem;
   font-family: var(--font-medium);
 }
 
-
 /* media query schermo 4k */
-
 @media screen and (min-width: 3840px) {
   .logobar {
     height: 9vh;
@@ -1149,9 +1146,7 @@ a:hover.sottolineatura {
   }
 }
 
-
 /* mobile */
-
 @media only screen and (min-width: 320px) {
   .mobile {
     position: absolute;
@@ -1214,9 +1209,7 @@ a:hover.sottolineatura {
   }
 }
 
-
 /* tablet */
-
 @media only screen and (max-width: 1024px) {
   .logobar {
     height: 9vh;
@@ -1294,7 +1287,6 @@ a:hover.sottolineatura {
     font-size: 2rem;
   }
 
-
   .text1 {
     margin: 9vh 0 0 0;
     padding: 0;
@@ -1359,7 +1351,6 @@ a:hover.sottolineatura {
     margin-top: 1rem;
     text-align: center;
   }
-
 
   @keyframes float {
     0% {
