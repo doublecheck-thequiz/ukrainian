@@ -94,35 +94,35 @@ a:hover {
 
 @font-face {
     font-family: 'NotoSansDisplay-Bold';
-    src: url('../css/fonts/MuseoModerno-Bold.ttf') format('truetype');
+    src: url('../css/fonts/MNotoSansDisplay-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'NotoSansDisplay-Regular';
-    src: url('../css/fonts/MuseoModerno-Regular.ttf') format('truetype');
+    src: url('../css/fonts/NotoSansDisplay-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'NotoSansDisplay-SemiBold';
-    src: url('../css/fonts/MuseoModerno-SemiBold.ttf') format('truetype');
+    src: url('../css/fonts/NotoSansDisplay-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'NotoSansDisplay-Light';
-    src: url('../css/fonts/MuseoModerno-Light.ttf') format('truetype');
+    src: url('../css/fonts/NotoSansDisplay-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'NotoSansDisplay-Medium';
-    src: url('../css/fonts/MuseoModerno-Medium.ttf') format('truetype');
+    src: url('../css/fonts/NotoSansDisplay-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
